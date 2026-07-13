@@ -38,13 +38,14 @@
                     "strings": "off"
                 },
 
-                // 4. Configure auto-open-markdown-preview to replace the editor instead of splitting
-                "auto-open-markdown-preview.openPreviewInSplit": false
+                // 4. Natively force Markdown files to open in Preview mode rather than the raw text editor
+                "workbench.editorAssociations": {
+                    "*.md": "vscode.markdown.preview.editor"
+                }
             },
             "extensions": [
                 "ms-vscode.cpptools",
                 "ms-vscode.cpptools-extension-pack",
-                "hnw.vscode-auto-open-markdown-preview",
                 "${containerWorkspaceFolder}/.devcontainer/coding-rabbit-0.2.0.vsix"
             ]
         }
