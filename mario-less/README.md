@@ -30,12 +30,6 @@ Open the terminal window at the bottom of your screen. You should find that your
 student@codespace:/workspaces/codingrabbit-cs50-week1$
 ```
 
-Next, execute the following command to make a folder called `mario-less` in your codespace:
-
-```bash
-mkdir mario-less
-```
-
 Then execute the following command to change directories into that folder:
 
 ```bash
